@@ -1,0 +1,145 @@
+.nav2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.nav2 button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #fa8e8e 25%, #f8d7bf 50%, #fabf8e 75%);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+.nav2 button:hover {
+    color: #ffffff;
+    background: linear-gradient(90deg, #4b2b2b 25%, #453535 50%, #4b2b2b 75%);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.name2 {
+    width: fit-content;
+    text-align: left;
+    width: 80%;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 370px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    
+}
+.profile2 {
+    display: flex;
+    align-items:flex-end;
+    gap: 15px; 
+}
+#info table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.75);
+    table-layout: fixed;
+    overflow: hidden;
+}
+#info td:first-child { /* Select the first cell in each row */
+    width: 30%; /* Left column 30% */
+}
+
+#info td:nth-child(2) { /* Select the second cell in each row */
+    width: 70%; /* Right column 70% */
+}
+#info td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    height: 40px;
+}
+#hobbies table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.75);
+    table-layout: fixed;
+    overflow: hidden;
+}
+#hobbies td:first-child { /* Select the first cell in each row */
+    width: 30%; /* Left column 30% */
+}
+
+#hobbies td:nth-child(2) { /* Select the second cell in each row */
+    width: 70%; /* Right column 70% */
+}
+#hobbies td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    height: 40px;
+}
+.title2a {
+    font-size: 32px;
+    font-weight: bold;
+    display: table; /* shrinks to content size */
+    margin: 10px auto; /* Centers the element horizontally */
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+p#leftInfo {
+    font-weight: bolder;
+    margin: 0;
+}
+#link_color:link {
+    color: yellow;
+    text-decoration: none;
+}
+#link_color:visited {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+#link_color:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+#link_color:active {
+    color: #ffd700;
+}
+
+#link_color:focus {
+    outline: 2px solid gold;
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+#link_color[target="_blank"] {
+    font-weight: bold;
+}
+#not_link_text {
+    color: yellow;
+    font-weight: bolder;
+}
+  
+#not_link_text:hover {
+    color:gold;
+    text-decoration: underline;
+}
+  
+#not_link_text:focus {
+    outline: 2px solid yellow;
+}
+#read_helper {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
